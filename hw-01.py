@@ -191,7 +191,7 @@ def main():
     bot = AssistantBot()
     print(Fore.CYAN + "Welcome to the Assistant Bot! Enter your command:")
     while True:
-        command = input(">>> ")
+        command = input("Enter a command: ")
         if not bot.handle_command(command):
             print(Fore.CYAN + "Goodbye!")
             break
